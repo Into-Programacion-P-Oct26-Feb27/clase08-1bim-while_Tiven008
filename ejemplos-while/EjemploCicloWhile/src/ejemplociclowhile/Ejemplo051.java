@@ -26,16 +26,20 @@ public class Ejemplo051 {
         int limite = 3;
         int contador = 1;
         double suma_total = 0;
-        String nombreEstudiante;
+        String nombre;
+        String apellido;
         String cadena_final;
         double promedio_final;
         double calificacion;
         
         System.out.println("Ingrese el Nombre del Estudiante");
-        nombreEstudiante = entrada.nextLine();
+        nombre = entrada.nextLine();
+        
+        System.out.println("Ingrese el apellido del Estudiante");
+        apellido = entrada.nextLine();
         
         cadena_final = String.format("Estudiante: %s\nLas notas ingresadas son:\n"
-                , nombreEstudiante);
+                , nombre , apellido);
         
         System.out.println("Ingrese las notas de los estudiantes de su "
                 + "materia");
