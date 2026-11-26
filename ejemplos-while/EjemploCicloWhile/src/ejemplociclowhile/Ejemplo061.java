@@ -32,3 +32,9 @@ public class Ejemplo061 {
     }
     
 }
+
+/*
+Se repite un ciclo while mientras la variable bandera sea true
+En cada vuelta pide un número al usuario que es -100 si quiere que el ciclo termine
+Si el usuario ingresa -100, la bandera cambia a false y el ciclo se acaba
+*/
