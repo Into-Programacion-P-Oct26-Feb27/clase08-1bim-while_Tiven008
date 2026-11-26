@@ -30,10 +30,11 @@ public class Ejemplo065 {
             
             System.out.println("Ingrese la población");
             poblacion = entrada.nextInt();
+            entrada.nextLine();
             
             reporte = String.format("%s%s\t%s\t%d\n", reporte, pais, 
                     capital, poblacion);
-            entrada.nextLine();
+           
             String salir;
             System.out.println("Desea salir del ciclo, ingrese si.");
             salir = entrada.nextLine(); 
