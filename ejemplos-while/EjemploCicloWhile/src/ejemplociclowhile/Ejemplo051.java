@@ -38,8 +38,8 @@ public class Ejemplo051 {
         System.out.println("Ingrese el apellido del Estudiante");
         apellido = entrada.nextLine();
         
-        cadena_final = String.format("Estudiante: %s\nLas notas ingresadas son:\n"
-                , nombre , apellido);
+        cadena_final = String.format("Estudiante: %s %s\nLas notas ingresadas son:\n"
+                ,nombre ,apellido);
         
         System.out.println("Ingrese las notas de los estudiantes de su "
                 + "materia");
